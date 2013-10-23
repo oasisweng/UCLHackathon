@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LLMainViewController.h"
 
 @interface LLAppDelegate : UIResponder <UIApplicationDelegate>
 
