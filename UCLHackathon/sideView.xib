@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LLMainViewController">
             <connections>
+                <outlet property="avatar" destination="UbI-uL-W3c" id="iaU-sd-mmk"/>
+                <outlet property="name" destination="Guh-Tm-F9d" id="LBm-lf-jcY"/>
                 <outlet property="sideView" destination="1" id="I2D-8y-hhM"/>
             </connections>
         </placeholder>

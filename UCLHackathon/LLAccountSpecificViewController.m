@@ -41,7 +41,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-	[avatar setImage:account.avatar];
+	//[avatar setImage:account.avatar];
 	name.text = @"Tester";
 	age.text = account.age.stringValue;
 	gender.text = account.gender;

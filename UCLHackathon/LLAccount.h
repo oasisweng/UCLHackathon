@@ -24,6 +24,6 @@
 @property (strong,nonatomic) NSNumber* smoking;
 @property (strong,nonatomic) NSString* religion;
 @property (strong,nonatomic) NSString* paypal;
-@property (strong,nonatomic) UIImage* avatar;
+@property (strong,nonatomic) NSString* avatar;
 @property (strong,nonatomic) NSString* uid;
 @end

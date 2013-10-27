@@ -11,6 +11,8 @@
 		35055393181CF103000AFEC8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35055392181CF103000AFEC8 /* QuartzCore.framework */; };
 		35055396181D2004000AFEC8 /* LLRoomSpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35055395181D2004000AFEC8 /* LLRoomSpecificViewController.m */; };
 		35055399181D2C4E000AFEC8 /* LLAccountSpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35055398181D2C4E000AFEC8 /* LLAccountSpecificViewController.m */; };
+		3505539C181D3CD2000AFEC8 /* LLPostAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3505539B181D3CD2000AFEC8 /* LLPostAdViewController.m */; };
+		3505539E181D45BD000AFEC8 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3505539D181D45BD000AFEC8 /* screen.png */; };
 		3537917E181C9349003D9705 /* mainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3537917D181C9349003D9705 /* mainStoryboard.storyboard */; };
 		35379180181C9363003D9705 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3537917F181C9363003D9705 /* Images.xcassets */; };
 		35379182181C96A8003D9705 /* shovel2-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 35379181181C96A8003D9705 /* shovel2-512.png */; };
@@ -51,6 +53,9 @@
 		35055395181D2004000AFEC8 /* LLRoomSpecificViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRoomSpecificViewController.m; sourceTree = "<group>"; };
 		35055397181D2C4E000AFEC8 /* LLAccountSpecificViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAccountSpecificViewController.h; sourceTree = "<group>"; };
 		35055398181D2C4E000AFEC8 /* LLAccountSpecificViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAccountSpecificViewController.m; sourceTree = "<group>"; };
+		3505539A181D3CD2000AFEC8 /* LLPostAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPostAdViewController.h; sourceTree = "<group>"; };
+		3505539B181D3CD2000AFEC8 /* LLPostAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPostAdViewController.m; sourceTree = "<group>"; };
+		3505539D181D45BD000AFEC8 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 		3537917D181C9349003D9705 /* mainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainStoryboard.storyboard; sourceTree = "<group>"; };
 		3537917F181C9363003D9705 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35379181181C96A8003D9705 /* shovel2-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shovel2-512.png"; sourceTree = "<group>"; };
@@ -152,6 +157,8 @@
 				35BB4A701817B016000A5292 /* LLAppDelegate.h */,
 				35BB4A711817B016000A5292 /* LLAppDelegate.m */,
 				3537917D181C9349003D9705 /* mainStoryboard.storyboard */,
+				3505539A181D3CD2000AFEC8 /* LLPostAdViewController.h */,
+				3505539B181D3CD2000AFEC8 /* LLPostAdViewController.m */,
 				3553885E181CE68300A2FBC8 /* LLMainViewController.h */,
 				3553885F181CE68300A2FBC8 /* LLMainViewController.m */,
 				353791DA181CC902003D9705 /* pickerView.xib */,
@@ -179,6 +186,7 @@
 				35055390181CEE17000AFEC8 /* slr_camera2-32.png */,
 				35538867181CE73800A2FBC8 /* student2-32.png */,
 				3553886B181CE82700A2FBC8 /* add_image-32.png */,
+				3505539D181D45BD000AFEC8 /* screen.png */,
 				35BB4A681817B016000A5292 /* Supporting Files */,
 				35BB4A8618186780000A5292 /* someCode */,
 				3537917F181C9363003D9705 /* Images.xcassets */,
@@ -257,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3553886C181CE82700A2FBC8 /* add_image-32.png in Resources */,
+				3505539E181D45BD000AFEC8 /* screen.png in Resources */,
 				35BB4A6C1817B016000A5292 /* InfoPlist.strings in Resources */,
 				353791DB181CC902003D9705 /* pickerView.xib in Resources */,
 				35379182181C96A8003D9705 /* shovel2-512.png in Resources */,
@@ -326,6 +335,7 @@
 				35538856181CDE5A00A2FBC8 /* LLAccount.m in Sources */,
 				35538860181CE68300A2FBC8 /* LLMainViewController.m in Sources */,
 				35055396181D2004000AFEC8 /* LLRoomSpecificViewController.m in Sources */,
+				3505539C181D3CD2000AFEC8 /* LLPostAdViewController.m in Sources */,
 				35379188181C98B9003D9705 /* LLSignInViewController.m in Sources */,
 				3537918B181C9BD6003D9705 /* LLSignUpViewController.m in Sources */,
 			);

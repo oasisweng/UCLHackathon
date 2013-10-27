@@ -60,7 +60,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                                 <connections>
-                                    <action selector="dismissKeyboard:" destination="w5w-MV-yDC" eventType="editingDidEnd" id="0LY-C7-2xe"/>
+                                    <action selector="dismissKeyboard:" destination="w5w-MV-yDC" eventType="editingDidEndOnExit" id="cCE-Hv-IHT"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TL-yQ-4C2">
@@ -278,7 +278,7 @@
                                         <rect key="frame" x="150" y="15" width="150" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                         <connections>
                                             <action selector="dismissKeyboard:" destination="Dtq-wg-bC5" eventType="editingDidEndOnExit" id="KZD-R2-hWN"/>
                                             <action selector="dismissKeyboard:" destination="Dtq-wg-bC5" eventType="editingDidEnd" id="MtR-Hs-RdF"/>
@@ -769,10 +769,10 @@
             </objects>
             <point key="canvasLocation" x="1585" y="1571"/>
         </scene>
-        <!--View Controller - Post Ad-->
+        <!--Post Ad View Controller - Post Ad-->
         <scene sceneID="nbP-Cb-lvS">
             <objects>
-                <viewController id="cVY-6B-JCq" sceneMemberID="viewController">
+                <viewController id="cVY-6B-JCq" customClass="LLPostAdViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i1E-Sg-o7z"/>
                         <viewControllerLayoutGuide type="bottom" id="CBP-2J-Ss9"/>
@@ -808,25 +808,37 @@
                                         <rect key="frame" x="29" y="62" width="271" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="dismissKeyboard:" destination="cVY-6B-JCq" eventType="editingDidEndOnExit" id="RBw-cA-cYs"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uCT-1i-5bZ">
                                         <rect key="frame" x="29" y="129" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="dismissKeyboard:" destination="cVY-6B-JCq" eventType="editingDidEndOnExit" id="E5v-RS-k8C"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hv8-cu-fDB">
                                         <rect key="frame" x="29" y="196" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="dismissKeyboard:" destination="cVY-6B-JCq" eventType="editingDidEndOnExit" id="9KF-lY-fZC"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xmq-Hx-fQI">
                                         <rect key="frame" x="29" y="263" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="dismissKeyboard:" destination="cVY-6B-JCq" eventType="editingDidEndOnExit" id="W7v-7L-Bbx"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvP-62-dli">
                                         <rect key="frame" x="29" y="234" width="40" height="21"/>
@@ -844,7 +856,10 @@
                                         <rect key="frame" x="29" y="330" width="271" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="dismissKeyboard:" destination="cVY-6B-JCq" eventType="editingDidEndOnExit" id="Qzb-rZ-QVt"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuT-A4-nyW">
                                         <rect key="frame" x="122" y="470" width="77" height="30"/>
@@ -860,6 +875,9 @@
                                         <state key="normal" image="slr_camera2-32.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="insert_image:" destination="cVY-6B-JCq" eventType="touchUpInside" id="93D-t7-SH6"/>
+                                        </connections>
                                     </button>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E3a-9V-zDF">
                                         <rect key="frame" x="87" y="372" width="213" height="90"/>

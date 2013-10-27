@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>avatar</key>
+	<string>/Users/oasis_weng/Desktop/UCLHackathon/UCLHackathon/screen.png</string>
 	<key>UID</key>
 	<string>1</string>
 	<key>age</key>
@@ -9,8 +11,6 @@
 	<key>course</key>
 	<string>Unspecified</string>
 	<key>email</key>
-	<string></string>
-	<key>ethinicity</key>
 	<string></string>
 	<key>ethnicity</key>
 	<string>Unspecified</string>
@@ -28,8 +28,6 @@
 	<string></string>
 	<key>phonenumber</key>
 	<string></string>
-	<key>photonumber</key>
-	<string>1232312333</string>
 	<key>religion</key>
 	<string>Unspecified</string>
 	<key>smoking</key>

@@ -66,7 +66,7 @@ NSInteger buttonTag;
 	
 	NSString* fileName = [[NSBundle mainBundle]pathForResource:@"Personal" ofType:@"plist"];
 	NSMutableDictionary* personalAttr = [NSMutableDictionary dictionaryWithContentsOfFile:fileName];
-	NSDictionary* parameters = @{@"photonumber":phone_num.text,@"age":[NSNumber numberWithInt:age_btn.titleLabel.text.integerValue],@"gender":(gender.selectedSegmentIndex == 1?@"Male":@"Female"),@"university":uni_btn.titleLabel.text,@"course":course_btn.titleLabel.text,@"ethnicity":eth_btn.titleLabel.text, @"nationality":nat_btn.titleLabel.text,@"smoking":[NSNumber numberWithBool:isSmoking.isOn],@"religion":rel_btn.titleLabel.text};
+	NSDictionary* parameters = @{@"phonenumber":phone_num.text,@"age":[NSNumber numberWithInt:age_btn.titleLabel.text.integerValue],@"gender":(gender.selectedSegmentIndex == 1?@"Male":@"Female"),@"university":uni_btn.titleLabel.text,@"course":course_btn.titleLabel.text,@"ethnicity":eth_btn.titleLabel.text, @"nationality":nat_btn.titleLabel.text,@"smoking":[NSNumber numberWithBool:isSmoking.isOn],@"religion":rel_btn.titleLabel.text};
 	
 	for (NSString* key in [parameters allKeys]){
 		NSString* object = [parameters objectForKey:key];

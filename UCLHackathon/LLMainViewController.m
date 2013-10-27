@@ -15,6 +15,11 @@
 
 @implementation LLMainViewController
 @synthesize sideView;
+@synthesize personal;
+@synthesize avatar;
+@synthesize accounts;
+@synthesize rooms;
+@synthesize name;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,6 +50,18 @@
 	
 	[self.view addSubview:sideView];
 	// Do any additional setup after loading the view.
+	
+	NSString* fileName = [[NSBundle mainBundle]pathForResource:@"Personal" ofType:@"plist"];
+	NSDictionary* attrs = [NSDictionary dictionaryWithContentsOfFile:fileName];
+	for (NSString* key in [attrs allKeys]){
+		NSObject* object = [attrs objectForKey:key];
+		[self.personal setValue:object forKey:key];
+	}
+	
+	name.text = self.personal.username;
+	[avatar setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"screen" ofType:@"png"]]];
+	
+	
 }
 
 -(void)sideView_in:(UIPanGestureRecognizer*)pgr{
