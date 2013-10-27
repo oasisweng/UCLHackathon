@@ -1,4 +1,7 @@
 Backend::Application.routes.draw do
+	resources :user
+
+	resources :room
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
