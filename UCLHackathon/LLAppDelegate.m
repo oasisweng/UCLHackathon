@@ -16,12 +16,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-	LLMainViewController* mainVC = [[LLMainViewController alloc]initWithNibName:@"mainView" bundle:[NSBundle mainBundle]];
-	[self.window setRootViewController:mainVC];
-    [self.window makeKeyAndVisible];
+//	NSString* filePath = [[NSBundle mainBundle]pathForResource:@"specifications" ofType:@"plist"];
+//	NSMutableDictionary* specs = [NSMutableDictionary dictionaryWithContentsOfFile:filePath];
+//	NSLog(@"%@",specs);
+//	NSInteger minAge = 16;
+//	NSInteger maxAge = 30;
+//	[specs setObject:[NSArray arrayWithObjects:[NSNumber numberWithInteger:minAge],[NSNumber numberWithInteger:maxAge],nil] forKey:@"age"];
+//	NSString* countFile = [[NSBundle mainBundle]pathForResource:@"counts" ofType:@"txt"];
+//	NSString* countContent = [NSString stringWithContentsOfFile:countFile encoding:NSUTF8StringEncoding error:nil];
+//	NSArray* countries = [countContent componentsSeparatedByString:@"\n"];
+//	NSString* uniFile = [[NSBundle mainBundle]pathForResource:@"uni" ofType:@"txt"];
+//	NSString* uniContent = [NSString stringWithContentsOfFile:uniFile encoding:NSUTF8StringEncoding error:nil];
+//	NSArray* universities = [uniContent componentsSeparatedByString:@"\n"];
+//	NSString* ethFile = [[NSBundle mainBundle]pathForResource:@"eth" ofType:@"txt"];
+//	NSString* ethContent = [NSString stringWithContentsOfFile:ethFile encoding:NSUTF8StringEncoding error:nil];
+//	NSArray* ethnicity = [ethContent componentsSeparatedByString:@"\n"];
+//	NSString* courseFile = [[NSBundle mainBundle]pathForResource:@"course" ofType:@"txt"];
+//	NSString* couContent = [NSString stringWithContentsOfFile:courseFile encoding:NSUTF8StringEncoding error:nil];
+//	NSArray* courses = [couContent componentsSeparatedByString:@"\n"];
+//	NSString* relFile = [[NSBundle mainBundle]pathForResource:@"rel" ofType:@"txt"];
+//	NSString* relContent = [NSString stringWithContentsOfFile:relFile encoding:NSUTF8StringEncoding error:nil];
+//	NSArray* religions = [relContent componentsSeparatedByString:@"\n"];
+//	[specs setObject:countries forKey:@"nationality"];
+//	[specs setObject:universities forKey:@"university"];
+//	[specs setObject:ethnicity forKey:@"ethnicity"];
+//	[specs setObject:courses forKey:@"course"];
+//	[specs setObject:religions forKey:@"religion"];
+//	[specs writeToFile:filePath atomically:YES];
+//	NSLog(@"filePaht %@",filePath);
+			
+
     return YES;
 }
 

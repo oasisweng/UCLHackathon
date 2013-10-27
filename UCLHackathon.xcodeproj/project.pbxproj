@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35055391181CEE17000AFEC8 /* slr_camera2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 35055390181CEE17000AFEC8 /* slr_camera2-32.png */; };
+		35055393181CF103000AFEC8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35055392181CF103000AFEC8 /* QuartzCore.framework */; };
+		35055396181D2004000AFEC8 /* LLRoomSpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35055395181D2004000AFEC8 /* LLRoomSpecificViewController.m */; };
+		35055399181D2C4E000AFEC8 /* LLAccountSpecificViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35055398181D2C4E000AFEC8 /* LLAccountSpecificViewController.m */; };
+		3537917E181C9349003D9705 /* mainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3537917D181C9349003D9705 /* mainStoryboard.storyboard */; };
+		35379180181C9363003D9705 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3537917F181C9363003D9705 /* Images.xcassets */; };
+		35379182181C96A8003D9705 /* shovel2-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 35379181181C96A8003D9705 /* shovel2-512.png */; };
+		35379185181C973A003D9705 /* LLStartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35379184181C973A003D9705 /* LLStartUpViewController.m */; };
+		35379188181C98B9003D9705 /* LLSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35379187181C98B9003D9705 /* LLSignInViewController.m */; };
+		3537918B181C9BD6003D9705 /* LLSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3537918A181C9BD6003D9705 /* LLSignUpViewController.m */; };
+		353791D3181CB551003D9705 /* LLSpecificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353791D2181CB551003D9705 /* LLSpecificationViewController.m */; };
+		353791D7181CB705003D9705 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353791D6181CB705003D9705 /* libPods.a */; };
+		353791D9181CC7BE003D9705 /* express-checkout-hero-c2.png in Resources */ = {isa = PBXBuildFile; fileRef = 353791D8181CC7BE003D9705 /* express-checkout-hero-c2.png */; };
+		353791DB181CC902003D9705 /* pickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353791DA181CC902003D9705 /* pickerView.xib */; };
+		353791EB181CD29A003D9705 /* specifications.plist in Resources */ = {isa = PBXBuildFile; fileRef = 353791EA181CD29A003D9705 /* specifications.plist */; };
+		35538856181CDE5A00A2FBC8 /* LLAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 35538855181CDE5A00A2FBC8 /* LLAccount.m */; };
+		35538859181CDE6300A2FBC8 /* LLRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 35538858181CDE6300A2FBC8 /* LLRoom.m */; };
+		3553885D181CE5F500A2FBC8 /* Personal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3553885C181CE5F500A2FBC8 /* Personal.plist */; };
+		35538860181CE68300A2FBC8 /* LLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3553885F181CE68300A2FBC8 /* LLMainViewController.m */; };
+		35538866181CE70D00A2FBC8 /* apartment-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 35538865181CE70D00A2FBC8 /* apartment-32.png */; };
+		35538868181CE73800A2FBC8 /* student2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 35538867181CE73800A2FBC8 /* student2-32.png */; };
+		3553886C181CE82700A2FBC8 /* add_image-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3553886B181CE82700A2FBC8 /* add_image-32.png */; };
+		3553886E181CE86D00A2FBC8 /* sideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3553886D181CE86D00A2FBC8 /* sideView.xib */; };
 		35BB4A601817B016000A5292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BB4A5F1817B016000A5292 /* UIKit.framework */; };
 		35BB4A621817B016000A5292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BB4A611817B016000A5292 /* Foundation.framework */; };
 		35BB4A641817B016000A5292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BB4A631817B016000A5292 /* CoreGraphics.framework */; };
@@ -18,13 +41,43 @@
 		35BB4A761817B016000A5292 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BB4A751817B016000A5292 /* Default@2x.png */; };
 		35BB4A781817B016000A5292 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35BB4A771817B016000A5292 /* Default-568h@2x.png */; };
 		35BB4A7B1817B016000A5292 /* UCLHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A791817B016000A5292 /* UCLHackathon.xcdatamodeld */; };
-		35BB4A8318185B9A000A5292 /* LLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35BB4A8218185B9A000A5292 /* LLMainViewController.m */; };
-		35BB4A8518185BD7000A5292 /* mainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35BB4A8418185BD7000A5292 /* mainView.xib */; };
 		35BB4A8718186780000A5292 /* someCode in Resources */ = {isa = PBXBuildFile; fileRef = 35BB4A8618186780000A5292 /* someCode */; };
-		DCBA78846A144072A0946CED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33533077806424D9E35A30D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35055390181CEE17000AFEC8 /* slr_camera2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slr_camera2-32.png"; sourceTree = "<group>"; };
+		35055392181CF103000AFEC8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		35055394181D2004000AFEC8 /* LLRoomSpecificViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRoomSpecificViewController.h; sourceTree = "<group>"; };
+		35055395181D2004000AFEC8 /* LLRoomSpecificViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRoomSpecificViewController.m; sourceTree = "<group>"; };
+		35055397181D2C4E000AFEC8 /* LLAccountSpecificViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAccountSpecificViewController.h; sourceTree = "<group>"; };
+		35055398181D2C4E000AFEC8 /* LLAccountSpecificViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAccountSpecificViewController.m; sourceTree = "<group>"; };
+		3537917D181C9349003D9705 /* mainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainStoryboard.storyboard; sourceTree = "<group>"; };
+		3537917F181C9363003D9705 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35379181181C96A8003D9705 /* shovel2-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shovel2-512.png"; sourceTree = "<group>"; };
+		35379183181C973A003D9705 /* LLStartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLStartUpViewController.h; sourceTree = "<group>"; };
+		35379184181C973A003D9705 /* LLStartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLStartUpViewController.m; sourceTree = "<group>"; };
+		35379186181C98B9003D9705 /* LLSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSignInViewController.h; sourceTree = "<group>"; };
+		35379187181C98B9003D9705 /* LLSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSignInViewController.m; sourceTree = "<group>"; };
+		35379189181C9BD6003D9705 /* LLSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSignUpViewController.h; sourceTree = "<group>"; };
+		3537918A181C9BD6003D9705 /* LLSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSignUpViewController.m; sourceTree = "<group>"; };
+		353791D1181CB551003D9705 /* LLSpecificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSpecificationViewController.h; sourceTree = "<group>"; };
+		353791D2181CB551003D9705 /* LLSpecificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSpecificationViewController.m; sourceTree = "<group>"; };
+		353791D4181CB701003D9705 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		353791D6181CB705003D9705 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		353791D8181CC7BE003D9705 /* express-checkout-hero-c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "express-checkout-hero-c2.png"; sourceTree = "<group>"; };
+		353791DA181CC902003D9705 /* pickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pickerView.xib; sourceTree = "<group>"; };
+		353791EA181CD29A003D9705 /* specifications.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = specifications.plist; sourceTree = "<group>"; };
+		35538854181CDE5A00A2FBC8 /* LLAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAccount.h; sourceTree = "<group>"; };
+		35538855181CDE5A00A2FBC8 /* LLAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAccount.m; sourceTree = "<group>"; };
+		35538857181CDE6300A2FBC8 /* LLRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRoom.h; sourceTree = "<group>"; };
+		35538858181CDE6300A2FBC8 /* LLRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRoom.m; sourceTree = "<group>"; };
+		3553885C181CE5F500A2FBC8 /* Personal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Personal.plist; sourceTree = "<group>"; };
+		3553885E181CE68300A2FBC8 /* LLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMainViewController.h; sourceTree = "<group>"; };
+		3553885F181CE68300A2FBC8 /* LLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMainViewController.m; sourceTree = "<group>"; };
+		35538865181CE70D00A2FBC8 /* apartment-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apartment-32.png"; sourceTree = "<group>"; };
+		35538867181CE73800A2FBC8 /* student2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "student2-32.png"; sourceTree = "<group>"; };
+		3553886B181CE82700A2FBC8 /* add_image-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_image-32.png"; sourceTree = "<group>"; };
+		3553886D181CE86D00A2FBC8 /* sideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sideView.xib; sourceTree = "<group>"; };
 		35BB4A5C1817B016000A5292 /* UCLHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCLHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BB4A5F1817B016000A5292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35BB4A611817B016000A5292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,12 +93,8 @@
 		35BB4A751817B016000A5292 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		35BB4A771817B016000A5292 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		35BB4A7A1817B016000A5292 /* UCLHackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UCLHackathon.xcdatamodel; sourceTree = "<group>"; };
-		35BB4A8118185B9A000A5292 /* LLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMainViewController.h; sourceTree = "<group>"; };
-		35BB4A8218185B9A000A5292 /* LLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMainViewController.m; sourceTree = "<group>"; };
-		35BB4A8418185BD7000A5292 /* mainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainView.xib; sourceTree = "<group>"; };
 		35BB4A8618186780000A5292 /* someCode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = someCode; sourceTree = "<group>"; };
 		8EA92C1DFB93480A9FE17BFF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		C33533077806424D9E35A30D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +102,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35055393181CF103000AFEC8 /* QuartzCore.framework in Frameworks */,
+				353791D7181CB705003D9705 /* libPods.a in Frameworks */,
 				35BB4A601817B016000A5292 /* UIKit.framework in Frameworks */,
 				35BB4A621817B016000A5292 /* Foundation.framework in Frameworks */,
 				35BB4A641817B016000A5292 /* CoreGraphics.framework in Frameworks */,
 				35BB4A661817B016000A5292 /* CoreData.framework in Frameworks */,
-				DCBA78846A144072A0946CED /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,11 +135,13 @@
 		35BB4A5E1817B016000A5292 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35055392181CF103000AFEC8 /* QuartzCore.framework */,
+				353791D6181CB705003D9705 /* libPods.a */,
+				353791D4181CB701003D9705 /* libPods-AFNetworking.a */,
 				35BB4A5F1817B016000A5292 /* UIKit.framework */,
 				35BB4A611817B016000A5292 /* Foundation.framework */,
 				35BB4A631817B016000A5292 /* CoreGraphics.framework */,
 				35BB4A651817B016000A5292 /* CoreData.framework */,
-				C33533077806424D9E35A30D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,12 +151,39 @@
 			children = (
 				35BB4A701817B016000A5292 /* LLAppDelegate.h */,
 				35BB4A711817B016000A5292 /* LLAppDelegate.m */,
-				35BB4A8118185B9A000A5292 /* LLMainViewController.h */,
-				35BB4A8218185B9A000A5292 /* LLMainViewController.m */,
-				35BB4A8418185BD7000A5292 /* mainView.xib */,
+				3537917D181C9349003D9705 /* mainStoryboard.storyboard */,
+				3553885E181CE68300A2FBC8 /* LLMainViewController.h */,
+				3553885F181CE68300A2FBC8 /* LLMainViewController.m */,
+				353791DA181CC902003D9705 /* pickerView.xib */,
+				353791D1181CB551003D9705 /* LLSpecificationViewController.h */,
+				353791D2181CB551003D9705 /* LLSpecificationViewController.m */,
+				35379183181C973A003D9705 /* LLStartUpViewController.h */,
+				35379184181C973A003D9705 /* LLStartUpViewController.m */,
+				35379186181C98B9003D9705 /* LLSignInViewController.h */,
+				35379187181C98B9003D9705 /* LLSignInViewController.m */,
+				35379189181C9BD6003D9705 /* LLSignUpViewController.h */,
+				3537918A181C9BD6003D9705 /* LLSignUpViewController.m */,
+				35055394181D2004000AFEC8 /* LLRoomSpecificViewController.h */,
+				35055395181D2004000AFEC8 /* LLRoomSpecificViewController.m */,
+				35055397181D2C4E000AFEC8 /* LLAccountSpecificViewController.h */,
+				35055398181D2C4E000AFEC8 /* LLAccountSpecificViewController.m */,
+				35538854181CDE5A00A2FBC8 /* LLAccount.h */,
+				35538855181CDE5A00A2FBC8 /* LLAccount.m */,
+				35538857181CDE6300A2FBC8 /* LLRoom.h */,
+				35538858181CDE6300A2FBC8 /* LLRoom.m */,
+				3553885C181CE5F500A2FBC8 /* Personal.plist */,
+				353791EA181CD29A003D9705 /* specifications.plist */,
+				3553886D181CE86D00A2FBC8 /* sideView.xib */,
 				35BB4A791817B016000A5292 /* UCLHackathon.xcdatamodeld */,
+				35538865181CE70D00A2FBC8 /* apartment-32.png */,
+				35055390181CEE17000AFEC8 /* slr_camera2-32.png */,
+				35538867181CE73800A2FBC8 /* student2-32.png */,
+				3553886B181CE82700A2FBC8 /* add_image-32.png */,
 				35BB4A681817B016000A5292 /* Supporting Files */,
 				35BB4A8618186780000A5292 /* someCode */,
+				3537917F181C9363003D9705 /* Images.xcassets */,
+				353791D8181CC7BE003D9705 /* express-checkout-hero-c2.png */,
+				35379181181C96A8003D9705 /* shovel2-512.png */,
 			);
 			path = UCLHackathon;
 			sourceTree = "<group>";
@@ -177,12 +256,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3553886C181CE82700A2FBC8 /* add_image-32.png in Resources */,
 				35BB4A6C1817B016000A5292 /* InfoPlist.strings in Resources */,
+				353791DB181CC902003D9705 /* pickerView.xib in Resources */,
+				35379182181C96A8003D9705 /* shovel2-512.png in Resources */,
+				35379180181C9363003D9705 /* Images.xcassets in Resources */,
+				35055391181CEE17000AFEC8 /* slr_camera2-32.png in Resources */,
 				35BB4A741817B016000A5292 /* Default.png in Resources */,
+				35538868181CE73800A2FBC8 /* student2-32.png in Resources */,
 				35BB4A761817B016000A5292 /* Default@2x.png in Resources */,
+				3537917E181C9349003D9705 /* mainStoryboard.storyboard in Resources */,
 				35BB4A781817B016000A5292 /* Default-568h@2x.png in Resources */,
-				35BB4A8518185BD7000A5292 /* mainView.xib in Resources */,
 				35BB4A8718186780000A5292 /* someCode in Resources */,
+				353791EB181CD29A003D9705 /* specifications.plist in Resources */,
+				35538866181CE70D00A2FBC8 /* apartment-32.png in Resources */,
+				3553886E181CE86D00A2FBC8 /* sideView.xib in Resources */,
+				353791D9181CC7BE003D9705 /* express-checkout-hero-c2.png in Resources */,
+				3553885D181CE5F500A2FBC8 /* Personal.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +317,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				35BB4A6E1817B016000A5292 /* main.m in Sources */,
+				35379185181C973A003D9705 /* LLStartUpViewController.m in Sources */,
+				35055399181D2C4E000AFEC8 /* LLAccountSpecificViewController.m in Sources */,
+				353791D3181CB551003D9705 /* LLSpecificationViewController.m in Sources */,
 				35BB4A721817B016000A5292 /* LLAppDelegate.m in Sources */,
+				35538859181CDE6300A2FBC8 /* LLRoom.m in Sources */,
 				35BB4A7B1817B016000A5292 /* UCLHackathon.xcdatamodeld in Sources */,
-				35BB4A8318185B9A000A5292 /* LLMainViewController.m in Sources */,
+				35538856181CDE5A00A2FBC8 /* LLAccount.m in Sources */,
+				35538860181CE68300A2FBC8 /* LLMainViewController.m in Sources */,
+				35055396181D2004000AFEC8 /* LLRoomSpecificViewController.m in Sources */,
+				35379188181C98B9003D9705 /* LLSignInViewController.m in Sources */,
+				3537918B181C9BD6003D9705 /* LLSignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +405,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EA92C1DFB93480A9FE17BFF /* Pods.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLHackathon/UCLHackathon-Prefix.pch";
 				INFOPLIST_FILE = "UCLHackathon/UCLHackathon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -319,9 +421,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EA92C1DFB93480A9FE17BFF /* Pods.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCLHackathon/UCLHackathon-Prefix.pch";
 				INFOPLIST_FILE = "UCLHackathon/UCLHackathon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

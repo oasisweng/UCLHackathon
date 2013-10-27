@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>200FED86-EAD7-4B34-A2F2-8A91C5C92014</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UCLHackathon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>50AA20A5-6499-4E8C-87F3-3221EC3EC63C</key>
+		<string>https://github.com/oasisweng/UCLHackathon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UCLHackathon.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>50AA20A5-6499-4E8C-87F3-3221EC3EC63C</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/oasisweng/UCLHackathon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>50AA20A5-6499-4E8C-87F3-3221EC3EC63C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>50AA20A5-6499-4E8C-87F3-3221EC3EC63C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UCLHackathon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
