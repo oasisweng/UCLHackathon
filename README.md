@@ -10,10 +10,4 @@ http://www.asp.net/get-started
 And please install XCode 5.0.1 and iOS 7.0 SDK on the latest Mac OS X 10.9 Maverisks.
 https://developer.apple.com/devcenter/ios/index.action
 
-if you need any login credentials, use my developer ID
-{
-	username: kaihuali@me.com
-	password: 1991329
-}
-
 PLEASE::!!!! NEVER change my password.
